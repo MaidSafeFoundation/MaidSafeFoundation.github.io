@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<title>About STEM</title>
+	<head>
+		<link rel="icon" 
+      type="image/png" 
+      href="Images\favicon.png">
+	<style>
+		html, body { 
+		height: 100%; 
+		padding-left:2%; 
+		padding-right:2%; 
+		margin:auto; 
+		}
+		html{
+		font-family:Arial, Helvetica, sans-serif;
+		background-color:rgb(204, 219, 255);
+		line-height:1.4;
+		}
+		body{
+			margin-left:0px;
+			}
+		body h1{
+			font-weight:normal;
+			text-align:center;
+			padding:25px;
+			background-color:rgb(79,125,244);
+			color:rgb(255,255,255);
+			margin:0px;
+			}
+		section{
+			padding-top:2%;
+			float:left;
+            width:100%;
+						}
+		section_1{
+			float:left;
+			width:50%;
+			text-align:left;
+			}
+		
+       	section p{
+			text-align:center;
+			line-height:1.4;
+			}
+
+		.column {
+			width:24%;
+			float:left;
+			align:center;
+			padding:0.5%;
+			}
+		
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			}
+			
+		p{
+			text-align:center;
+			line-height:1.4;
+			}
+		p_1{
+			Text-align:left;
+			line-height:1.4;
+			font-weight:bold;
+			}
+		
+		
+			
+		/* background color for top navigation */
+		.topnav {
+		  background-color: #333;
+		  overflow: hidden;
+		}
+
+		/* Style the links inside the navigation bar */
+		.topnav a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+
+		/* Add an active class to highlight the current page */
+		.active {
+		  background-color: rgb(0, 21, 255);
+		  color: white;
+		}
+
+		/* Hide the link that should open and close the topnav on small screens */
+		.topnav .icon {
+		  display: none;
+		}
+
+		/* Dropdown container - needed to position the dropdown content */
+		.dropdown {
+		  float: left;
+		  overflow: hidden;
+		}
+
+		/* Style the dropdown button to fit inside the topnav */
+		.dropdown .dropbtn {
+		  font-size: 17px; 
+		  border: none;
+		  outline: none;
+		  color: white;
+		  padding: 2px 16px;
+		  background-color: inherit;
+		  font-family: inherit;
+		  margin: 0;
+		}
+
+		/* Style the dropdown content (hidden by default) */
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f9f9f9;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		/* Style the links inside the dropdown */
+		.dropdown-content a {
+		  float: none;
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		/* Add a dark background on topnav links and the dropdown button on hover */
+		.topnav a:hover, .dropdown:hover .dropbtn {
+		  background-color: #555;
+		  color: white;
+		}
+
+		/* Add a grey background to dropdown links on hover */
+		.dropdown-content a:hover {
+		  background-color: #ddd;
+		  color: black;
+		}
+
+		/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+
+		/* When the screen is less than 1079 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+		@media screen and (max-width: 1079px) {
+		  .topnav a:not(:first-child), .dropdown .dropbtn {
+			display: none;
+		  }
+		  .topnav a.icon {
+			float: right;
+			display: block;
+		  }
+		}
+
+		/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+		@media screen and (max-width: 1079px) {
+		  .topnav.responsive {position: relative;}
+		  .topnav.responsive a.icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		  }
+		  .topnav.responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+		  }
+		  .topnav.responsive .dropdown {float: none;}
+		  .topnav.responsive .dropdown-content {position: relative;}
+		  .topnav.responsive .dropdown .dropbtn {
+			display: block;
+			width: 100%;
+			text-align: left;
+		  }
+		}
+				
+	</style>
+	</head>
+	<body>
+		<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<a href="About-Us.html" class="active">About Us</a>
+		<a href="Meet the Team.html">Meet the Team</a>
+		<a href="Learning Center.html">Learning Center</a>		
+		<div class="dropdown">
+				<button class="dropbtn"><a href="Past Projects.html">Completed Projects</a>
+			</button>
+		<div class="dropdown-content">
+			<a href="Barr door.html">Door Hangings</a>
+			<a href="Catrine Poppy.html">Poppy Project</a>
+			<a href="Catrine Screens.html">Chinese Screens</a>
+			<a href="Consent.html">Consent Project</a>
+			<a href="EAC.html">Easter Holidays</a>
+			<a href="Macintosh Glass.html">Mackintosh Roses</a>
+			<a href="Struthers.html">Space Projects</a>
+			<a href="tartan.html">Tartan Prints</a>
+		</div>
+		</div> 
+		  <a href="Custom Services.html">Custom Services</a>
+		  <a href="Get involved.html">Get Involved</a>
+		  <a href="STEM.html">STEM Support</a>
+		  <a href="Contact Us.html">Contact Us</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+
+
+		<script>
+		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+
+		<h1>About Our STEM Education Pack</h1>
+		<section>
+			<div class="column">
+				<img src="Images/Pack Photos/Early/ES04b.JPG" style="width:100%; align:center; border:2px solid black;">
+				<p> Investigating Hydraulics and Forces</p>
+				<p>(Early Level)</p>
+			</div>
+			<div class="column">
+				<img src="Images/Pack Photos/First/1E01.JPG" style="width:100%; align:center; border:2px solid black;">
+				<p>Investigating forces by making Catapults!</p>
+				<p>(First Level)</p>
+			</div>
+			<div class="column">
+				<img src="Images/Pack Photos/First/1S02.JPG" style="width:100%; align:center; border:2px solid black;">
+				<p>Make simple Electrical Circuits</p>
+				<p>(First Level)</p>
+			</div>
+			<div class="column">
+				<img src="Images/Pack Photos/Second/2S08.JPG" style="width:100%; align:center; border:2px solid black;">
+				<p>Discover Relative Distances in Space!</p>
+				<p>(Second Level)</p>
+			</div>
+		</section>
+		<hr>
+		
+		<p style="padding:25px; font-size:2em; background-color:rgb(0,0,0); color:rgb(255,255,255); margin:0px">Click <a href="STEM.html">here</a> for free lesson samples!</p>
+		
+		<hr>
+		
+		
+		<section_1>
+			<h3>The pack contains:</h3>
+			<ul>
+				<li>47 detailed lesson plans</li>
+				<li>Summary of Covered Outcomes</li>
+				<li>Large Resource Box</li>
+				<li>Access to online resources via our <a href="http://maidsafe.foundation/STEM.html" target="_blank">website</a>
+			</ul>
+			<h3>Each Lesson is comprised of the following sections:</h3>
+			<ul>
+				<li>What's Happening? - A summary of what pupils will do during the lesson.</li>
+				<li>Experiences and Outcomes and Related Benchmarks.</li>
+				<li>Pupils will Learn - Helpful for setting Success Criteria.</li>
+				<li>Resources Required - The majority of these come with the pack. Other items should already be in most schools.</li>
+				<li>Introduction - Ideas on how to introduce the lessons.</li>
+				<li>Development - Suggestions for how to move the lessons along.</li>
+				<li>Plenary - A guide to summarising the learning.</li>
+				<li>Assessment - Identifies opportunities to assess children.</li>
+				<li>Differentiation - Basic ideas to support and challenge pupils.</li>
+				<li>Useful Questions and Answers- Suggested questions to ask pupils complete with answers.</li>
+				<li>Why Teach This - Identifies links to real life.</li>
+			</ul>
+		</section_1>
+		
+		<section_1>
+			<img src="Images/Front Cover.jpg" style="width:40%;border:2px solid black;" class="center">
+		</section_1>		
+
+		<section_1>		
+			<img src="Images/Tutorial.jpg" style="width:40%;border:2px solid black;margin-top:1%;" class="center">
+			<p>Pupil Support materials are clear and easy to follow.</p>
+		</section_1>
+
+		<section_1>
+			
+			<p>All Pupil Support Materials are available via our <a href="http://maidsafe.foundation/STEM.html" target="_blank">website</a></p>
+			<br>
+			<br>
+			<p_1>"At first sight, the pack seems full of useful content. The lessons are well planned, well structured and well resourced. They are all active and I can see my P6 class enjoying taking part, especially some of my disengaged boys. They'll love the engineering tasks and the hands on approach."
+			<br>
+			<br>Jillian Powell,
+			<br>Probationary Teacher,
+			<br>Dalmilling Primary School.</p_1>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p>This is just some of the feedback we have received during the pilot phase of the project.</p>
+		</section_1>	
+
+		<section_1>
+			<h2>Pricing:</h2>
+			<h3 class="center">The pack price is £620 plus P&P</h3>
+			<h3>Please note that we are a not-for-profit company. Every penny raised from the sale of this Education Pack will be reinvested in the MaidSafe Foundation, allowing us to continue our work with vulnerable people within the community.</h3>
+			<br>
+			<h3>We work with schools and with Community Groups to provide education through active learning. If you would like to view examples of projects we have worked on in the past then click <a href="Past Projects.html">here</a>.</h3>
+			<br>
+			<p1>If you would like to order a STEM Education Pack and you have not already been contacted by a member of staff from our team then please visit the <a href="Contact Us.html">Contact Us</a> page where you will find links to email us or get in touch through social media.</p1>
+		</section_1>
+		
+		<section_1>
+			<img src="Images/STEM Support.jpg" style="width:40%;border:2px solid black; margin-top:1%;" class="center">
+			<p>Screenshot of materials available via the Foundation <a href="http://maidsafe.foundation/STEM.html" target="_blank">website</a></p>
+		</section_1>	
+
+		<footer style="text-align:center;">
+		<hr>
+				©2019 MaidSafe Foundation. All rights reserved. Reg charity number: SC042032
+		</footer>
+	</body>
+</html>
